@@ -1,8 +1,8 @@
-@-moz-viewport { width: device-width; scale: 1; }
-@-ms-viewport { width: device-width; scale: 1; }
-@-o-viewport { width: device-width; scale: 1; }
-@-webkit-viewport { width: device-width; scale: 1; }
-@viewport { width: device-width; scale: 1; }
+@-moz-viewport {width: device-width; scale: 1;}
+@-ms-viewport {width: device-width; scale: 1;}
+@-o-viewport {width: device-width; scale: 1;}
+@-webkit-viewport {width: device-width; scale: 1;}
+@viewport {width: device-width; scale: 1;}
 
 html {
   box-sizing: border-box;
@@ -191,4 +191,93 @@ div.social-media-icons span{
 
 a{
   color: white;
+}
+
+@media only screen and (min-width: 25em){
+    .nav{
+      text-align: center;
+    }
+    .nav li{
+    display: inline-block;
+    }
+}
+
+@media only screen and (min-width: 35em){
+    .porfolio{
+      width: 100%;
+      margin: auto;
+      overflow: auto;
+    }
+    .ui-box{
+      float: left;
+      width: 50%;
+      overflow: auto;
+    }
+    .video-box{
+      float: right;
+      width: 50%;
+      overflow: auto;
+    }
+    .motion-box{
+      float: left;
+      width: 50%;
+      overflow: auto;
+    }
+    .illustration-box{
+      float: right;
+      width: 50%;
+      overflow: auto;
+    }
+    .social-media-icons{
+      padding-left: 120px;
+      padding-right: 120px;
+    }
+}
+
+@media only screen and (min-width: 50em){
+  .porfolio{
+    width: 100%;
+    overflow: auto;
+    display: inline-block;
+  }
+  .ui-box{
+    float: none;
+    width: 25%;
+    overflow: auto;
+  }
+  .video-box{
+    float: none;
+    width: 25%;
+    overflow: auto;
+  }
+  .motion-box{
+    float: none;
+    width: 25%;
+    overflow: auto;
+  }
+  .illustration-box{
+    float: none;
+    width: 25%;
+    overflow: auto;
+  }
+  .ui-box, .video-box,.motion-box,.illustration-box{
+    display:inline-block;
+    position: relative;
+    margin: 0px;
+    float:left;
+    width:25%;
+    height:400px;
+    background-color: lightgrey;
+  }
+  .social-media-icons{
+    padding-left: 260px;
+    padding-right: 260px;
+  }
+}
+
+@media only screen and (min-width: 80em){
+  .social-media-icons{
+    padding-left: 400px;
+    padding-right: 400px;
+  }
 }
