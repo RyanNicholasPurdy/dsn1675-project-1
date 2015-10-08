@@ -178,3 +178,17 @@ div.social-media-icons span{
   text-align: center;
   padding-bottom: 50px;
 }
+
+.footer{
+  text-align: center;
+  padding-left: 40px;
+  padding-right: 40px;
+  padding-top: 40px;
+  padding-bottom: 40px;
+  background-color: black;
+  color: white;
+}
+
+a{
+  color: white;
+}
