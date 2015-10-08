@@ -60,3 +60,102 @@ h1{
   font-size: 1.5rem;
   text-transform: uppercase;
 }
+
+.about-box{
+  padding-left: 30px;
+  padding-right: 30px;
+  padding-top: 15px;
+  padding-bottom: 15px;
+}
+
+.ui-box{
+  background-image: url("../images/ui.jpg");
+  background-size: cover;
+  background-repeat: no-repeat;
+  background-position: center top;
+  height: 320px;
+  position: relative;
+}
+
+.ui-box h3{
+  font-weight: normal;
+  position: absolute;
+  bottom: 0;
+  padding-left: 20px;
+  padding-top: 10px;
+  padding-bottom: 10px;
+  color: white;
+  background-color: darkgrey;
+  background-color: rgba(40,40,40,0.5);
+  margin-bottom: 0;
+  width: 100%;
+}
+
+.video-box{
+  background-image: url("../images/video.JPG");
+  background-size: cover;
+  background-repeat: no-repeat;
+  background-position: center top;
+  height: 320px;
+  position: relative;
+}
+
+.video-box h3{
+  font-weight: normal;
+  position: absolute;
+  bottom: 0;
+  padding-left: 20px;
+  padding-top: 10px;
+  padding-bottom: 10px;
+  color: white;
+  background-color: darkgrey;
+  background-color: rgba(40,40,40,0.5);
+  margin-bottom: 0;
+  width: 100%;
+}
+
+.motion-box{
+  background-image: url("../images/motion.png");
+  background-size: cover;
+  background-repeat: no-repeat;
+  background-position: center top;
+  height: 320px;
+  position: relative;
+}
+
+.motion-box h3{
+  font-weight: normal;
+  position: absolute;
+  bottom: 0;
+  padding-left: 20px;
+  padding-top: 10px;
+  padding-bottom: 10px;
+  color: white;
+  background-color: darkgrey;
+  background-color: rgba(40,40,40,0.5);
+  margin-bottom: 0;
+  width: 100%;
+}
+
+.illustration-box{
+  background-image: url("../images/illustration.png");
+  background-size: cover;
+  background-repeat: no-repeat;
+  background-position: center top;
+  height: 320px;
+  position: relative;
+}
+
+.illustration-box h3{
+  font-weight: normal;
+  position: absolute;
+  bottom: 0;
+  padding-left: 20px;
+  padding-top: 10px;
+  padding-bottom: 10px;
+  color: white;
+  background-color: darkgrey;
+  background-color: rgba(40,40,40,0.5);
+  margin-bottom: 0;
+  width: 100%;
+}
