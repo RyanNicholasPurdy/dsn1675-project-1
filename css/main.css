@@ -168,6 +168,10 @@ h1{
   table-layout: fixed;
 }
 
+.social-media-icons a{
+  color: black;
+}
+
 div.social-media-icons span{
   display: table-cell;
   text-align: center;
