@@ -235,6 +235,10 @@ a{
 }
 
 @media only screen and (min-width: 50em){
+  .about-box{
+    padding-left: 100;
+    padding-right: 100;
+  }
   .porfolio{
     width: 100%;
     overflow: auto;
@@ -275,9 +279,25 @@ a{
   }
 }
 
+
 @media only screen and (min-width: 80em){
   .social-media-icons{
     padding-left: 400px;
     padding-right: 400px;
+  }
+  .about-box{
+    padding-left: 300px;
+    padding-right: 300px;
+  }
+}
+
+@media only screen and (min-width: 100em){
+  .social-media-icons{
+    padding-left: 400px;
+    padding-right: 400px;
+  }
+  .about-box{
+    padding-left: 600px;
+    padding-right: 600px;
   }
 }
