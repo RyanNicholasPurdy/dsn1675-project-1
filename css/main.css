@@ -179,6 +179,10 @@ div.social-media-icons span{
   padding-bottom: 50px;
 }
 
+.say-hello a{
+  color: black;
+}
+
 .footer{
   text-align: center;
   padding-left: 40px;
@@ -189,7 +193,7 @@ div.social-media-icons span{
   color: white;
 }
 
-a{
+.footer a{
   color: white;
 }
 
@@ -229,8 +233,11 @@ a{
       overflow: auto;
     }
     .social-media-icons{
-      padding-left: 120px;
-      padding-right: 120px;
+      padding-left: 50px;
+      padding-right: 50px;
+    }
+    .hero-banner h2{
+      font-size: 2rem;
     }
 }
 
@@ -274,8 +281,11 @@ a{
     background-color: lightgrey;
   }
   .social-media-icons{
-    padding-left: 260px;
-    padding-right: 260px;
+    padding-left: 280px;
+    padding-right: 280px;
+  }
+  .hero-banner h2{
+    font-size: 3rem;
   }
 }
 
@@ -293,11 +303,28 @@ a{
 
 @media only screen and (min-width: 100em){
   .social-media-icons{
-    padding-left: 400px;
-    padding-right: 400px;
-  }
-  .about-box{
     padding-left: 600px;
     padding-right: 600px;
+  }
+  .about-box{
+    padding-left: 550px;
+    padding-right: 550px;
+  }
+  .hero-banner h2{
+    font-size: 3rem;
+  }
+}
+
+@media only screen and (min-width: 150em){
+  .social-media-icons{
+    padding-left: 1000px;
+    padding-right: 1000px;
+  }
+  .about-box{
+    padding-left: 800px;
+    padding-right: 800px;
+  }
+  .hero-banner h2{
+    font-size: 4rem;
   }
 }
